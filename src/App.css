@@ -17,3 +17,31 @@
     }
 }
 
+#paypal-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.buttonLogout{
+    background-color: #007bff;
+}
+#beneficios {
+    width: 20%;
+    height: 20%;
+    
+}
+#container-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-body {
+    justify-content: center;
+}
+#instructorimg {
+    width: 20%;
+    height: 20%;
+}
+#imgabout{
+    width: 40%;
+    height: 20%;}

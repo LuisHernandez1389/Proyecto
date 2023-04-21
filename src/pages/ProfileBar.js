@@ -11,7 +11,7 @@ export const ProfileBar = () => {
   return (
     isAuthenticated && (
       <div>
-        <img class="img" src={user.picture}  width="60" height="60"/>
+        <img class="img" src={user.picture}  width="60" height="60" />
         
         
       </div>

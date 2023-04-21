@@ -11,8 +11,12 @@ import User from "./components/User";
 import { LoginButton } from "./Login";
 import { useAuth0 } from "@auth0/auth0-react";
 import { Profile } from "./Profile";
-import { LogoutButton } from "./Logout";
+import  LogoutButton  from "./Logout";
 import { ProfileBar } from "./pages/ProfileBar";
+import PagoM1 from "./pages/PagoM1";
+import PagoM2 from "./pages/PagoM2";
+import PagoM3 from "./pages/PagoM3";
+import Pruebas from "./pages/Pruebas";
 function App() {
   const [user, setUser] = useState(null);
 
@@ -40,7 +44,10 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/formr" element={<FormRegister/>} />
         <Route path="/user" element={<User/>} />
-        
+        <Route path="/uno" element={<PagoM1/>}/>
+        <Route path="/dos" element={<PagoM2/>}/>
+        <Route path="/tres" element={<PagoM3/>}/>
+        <Route path="/p" element={<Pruebas/>}/>
         <Route
           path="/analytics"
           element={
